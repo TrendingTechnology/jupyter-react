@@ -59,7 +59,7 @@ module.exports = {
     minimize: minimize,
   },
   output: {
-    publicPath: "/",
+    publicPath: "http://localhost:3266/",
     filename: '[name].[contenthash].jupyterEditor.js',
   },
   resolve: {
