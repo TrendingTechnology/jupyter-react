@@ -23,6 +23,7 @@
     "build:tsc:watch:res": "gulp resources-to-lib-watch",
     "typedoc": "typedoc ./src",
     "watch": "tsc --watch",
+    "launch:jupyterpool": "cd dist && jupyterpool --port 3266 --ServerApp.jpserver_extensions=\"{'jupyterlab': True, 'jupyterpool': True,  'nbclassic': True }\"",
     "kill": "./../../dev/sh/kill-jupyter-server.sh || true"
   },
   "dependencies": {
