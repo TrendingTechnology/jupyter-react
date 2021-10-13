@@ -8,7 +8,11 @@
   <img alt="Jupyter Editor" src="https://docs.datalayer.io/assets/images/jupyter-editor-2f39f51a4596173b8ffcf33d62ec5278.gif" />
 </div>
 
-This repository provides libraries to use [React.js](https://reactjs.org) inside the [Jupyter](https://jupyter.org) ecosystem, with a primary focus on wrapping [JupyterLab](https://github.com/jupyterlab/jupyterlab) components into a React.js tree.
+This repository provides [React.js](https://reactjs.org) components compatible with the [Jupyter](https://jupyter.org) ecosystem to create your own custom `Data Product`. The below image shows a gallery of the available components while the above image shows an usage example of some of those components in a React.js application `a-la-google-docs`.
+
+<div align="center" style="text-align: center">
+  <img alt="Jupyter Editor" src="https://docs.datalayer.io/assets/images/gallery-d29737240a1e3cc60b8f3b4676ccc07f.gif" />
+</div>
 
 Please open [issues](https://github.com/datalayer/datalayer/issues) for questions, feature requests, bug reports... We also welcome [pull requests](https://github.com/datalayer/datalayer/pulls).
 
