@@ -38,7 +38,7 @@ module.exports = {
         ws: true
       },
       '/plotly.js': {
-        target: 'http://localhost:8686/api/jupyter/jupyter_react',
+        target: 'http://localhost:8686/api/jupyter/pool/react',
         ws: false
       },
     },
