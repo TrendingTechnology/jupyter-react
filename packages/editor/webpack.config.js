@@ -12,6 +12,7 @@ function shim(regExp) {
 }
 
 const IS_PRODUCTION = process.argv.indexOf('--mode=production') > -1;
+
 let mode = "development";
 if (IS_PRODUCTION) {
   mode = "production";
@@ -27,6 +28,11 @@ if (IS_PRODUCTION) {
   minimize = true;
 }
 
+let publicPath = "http://localhost:3266/";
+if (IS_PRODUCTION) {
+  publicPath = "//d1klwlf7zy9tdr.cloudfront.net/assets/jupyter-editor/0.0.6/";
+}
+
 module.exports = {
   entry: ['./src/Example'],
   mode: mode,
@@ -39,15 +45,13 @@ module.exports = {
     port: 3266,
     proxy: {
       '/api/jupyter': {
-//        target: 'https:/localhost:8686',
-        target: 'https://dev1.jupyterpool.com',
+        target: 'https:/localhost:8686',
         ws: true,
         secure: false,
         changeOrigin: true,
       },
       '/plotly.js': {
-//        target: 'https:/localhost:8686/api/jupyter/pool/react',
-        target: 'https://dev1.jupyterpool.com/api/jupyter/pool/react',
+        target: 'https:/localhost:8686/api/jupyter/pool/react',
         ws: false,
         secure: false,
         changeOrigin: true,
@@ -59,7 +63,7 @@ module.exports = {
     minimize: minimize,
   },
   output: {
-    publicPath: "http://localhost:3266/",
+    publicPath: publicPath,
     filename: '[name].[contenthash].jupyterEditor.js',
   },
   resolve: {

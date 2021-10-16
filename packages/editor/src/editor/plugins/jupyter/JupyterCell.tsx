@@ -12,7 +12,7 @@ const LAYOUT: Layout = 'vertical';
 const isVertical = (layout: Layout) => layout === 'vertical';
 
 const JupyterCell = (props: RenderJupyterProps) => {
-  const {kernel, attributes, children, element} = props;
+  const { kernel, attributes, children, element } = props;
   const selected = useSelected();
   const focused = useFocused();
   const JupyterCellElement = element as JupyterCellElement;
