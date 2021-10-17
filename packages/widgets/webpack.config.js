@@ -199,7 +199,7 @@ module.exports = {
     }),
     new HtmlWebpackTagsPlugin({
       links: [
-        'http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css',
+        '//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css',
         'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap',
       ],
       tags: [
