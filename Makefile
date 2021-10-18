@@ -39,7 +39,9 @@ env-rm: ## create a conda environment
 
 env: ## create a conda environment
 	($(CONDA); \
-		conda env create -f environment.yml )
+		conda env create -f environment.yml && \
+		pip install --upgrade git+https://github.com/datalayer-externals/jupyter-server@multiuser-rbac#egg=jupyter_server && \
+		pip install --upgrade git+https://github.com/datalayer/jupyterpool@main#egg=jupyterpool )
 
 install: ## Install yarn dependencies and link the theme from the storybook
 	($(CONDA_ACTIVATE) ${ENV_NAME}; \
