@@ -45,13 +45,13 @@ module.exports = {
     port: 3266,
     proxy: {
       '/api/jupyter': {
-        target: 'https:/localhost:8686',
+        target: 'http://localhost:8686',
         ws: true,
         secure: false,
         changeOrigin: true,
       },
       '/plotly.js': {
-        target: 'https:/localhost:8686/api/jupyter/pool/react',
+        target: 'http://localhost:8686/api/jupyter/pool/react',
         ws: false,
         secure: false,
         changeOrigin: true,
