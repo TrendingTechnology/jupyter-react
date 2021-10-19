@@ -5,7 +5,9 @@ channels:
 dependencies:
   - jupyter-packaging
   - jupyter-server-proxy
+  - matplotlib
   - nodejs=14.15.1
+  - pandas
   - pip
   - pycurl
   - pytest
