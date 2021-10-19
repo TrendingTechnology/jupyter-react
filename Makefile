@@ -35,7 +35,7 @@ help: ## display this help
 env-rm: ## create a conda environment
 	($(CONDA); \
 		conda deactivate && \
-			conda remove -y --all -n datalayer-jupyter )
+			conda remove -y --all -n ${ENV_NAME} )
 
 env: ## create a conda environment
 	($(CONDA); \
