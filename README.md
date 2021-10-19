@@ -19,17 +19,17 @@ Please open [issues](https://github.com/datalayer/datalayer/issues) for question
 Follow the below steps to create your development environment.
 
 ```bash
+# Clone this repository.
+git clone https://github.com/datalayer/jupyter-react.git && \
+  cd jupyter-react
+```
+
+```bash
 # Setup your development environment.
 conda deactivate && \
   make env-rm # If you want to reset your env.
 make env && \
   conda activate datalayer
-```
-
-```bash
-# Clone this repository.
-git clone https://github.com/datalayer/jupyter-react.git && \
-  cd jupyter-react
 ```
 
 ```bash
