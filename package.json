@@ -10,7 +10,7 @@
     "deploy": "lerna run deploy",
     "example:jupyter:widgets": "lerna run --parallel --scope @datalayer/jupyter-* example:jupyter:widgets",
     "jupyter:theme:light": "lerna run --parallel --scope @datalayer/jupyter-light-theme start",
-    "jupyter:editor": "lerna run --parallel --scope '@datalayer/jupyter-{editor,light-theme,widgets}' start",
+    "jupyter:editor": "lerna run --parallel --scope '@datalayer/jupyter-editor' start",
     "jupyter:widgets": "lerna run --parallel --scope '@datalayer/jupyter-{light-theme,widgets}' start",
     "test": "lerna run test"
   },
