@@ -16,7 +16,7 @@ This repository provides [React.js](https://reactjs.org) components compatible w
 
 Please open [issues](https://github.com/datalayer/datalayer/issues) for questions, feature requests, bug reports... We also welcome [pull requests](https://github.com/datalayer/datalayer/pulls).
 
-Follow the below steps to create your development environment. You will need [Miniconda](https://docs.conda.io/en/latest/miniconda.html) up-and-running your machine (MacOS or Linux, Windows not support as developement platform for the time-being).
+Follow the below steps to create your development environment. You will need [Miniconda](https://docs.conda.io/en/latest/miniconda.html) up-and-running on your machine (MacOS or Linux, Windows is not supported as developement platform for the time-being).
 
 ```bash
 # Clone this repository.
