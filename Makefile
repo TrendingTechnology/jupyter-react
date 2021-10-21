@@ -52,12 +52,6 @@ install: ## Install yarn dependencies and link the theme from the storybook
 		rm -fr */*/node_modules/react && \
 		rm -fr */*/node_modules/react-dom )
 
-publish: ## publish
-	($(CONDA_ACTIVATE) ${ENV_NAME}; \
-		rm -fr dist/* && \
-		python setup.py sdist bdist_wheel && \
-		twine upload dist/* )
-
 example-build: ## build the storybook
 	($(CONDA_ACTIVATE) ${ENV_NAME}; \
 		rm -fr storybook/.out/* && \
