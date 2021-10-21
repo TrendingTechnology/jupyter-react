@@ -1,4 +1,4 @@
-name: datalayer
+name: jupyter-react
 channels:
   - conda-forge
   - defaults

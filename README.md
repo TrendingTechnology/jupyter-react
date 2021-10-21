@@ -29,7 +29,7 @@ git clone https://github.com/datalayer/jupyter-react.git && \
 conda deactivate && \
   make env-rm # If you want to reset your env.
 make env && \
-  conda activate datalayer
+  conda activate jupyter-react
 ```
 
 ```bash
