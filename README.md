@@ -2,13 +2,15 @@
 
 # Jupyter React
 
-> ⚛️ React.js components for Jupyter.
+> ⚛️ This repository provides [React.js](https://reactjs.org) components compatible with the [Jupyter](https://jupyter.org) ecosystem to create your own custom `Data Product`.
 
 <div align="center" style="text-align: center">
   <img alt="Jupyter Editor" src="https://docs.datalayer.io/assets/images/jupyter-editor-2f39f51a4596173b8ffcf33d62ec5278.gif" />
 </div>
 
-This repository provides [React.js](https://reactjs.org) components compatible with the [Jupyter](https://jupyter.org) ecosystem to create your own custom `Data Product`. The below image shows a gallery of the available components while the above image shows an usage example of some of those components in a React.js application `a-la-google-docs`.
+You can create for example a custom React.js data product `a-la-google-docs` as shown above.
+
+The below image shows a gallery of the available React.js components you ready to be used in you custom React.js application.
 
 <div align="center" style="text-align: center">
   <img alt="Jupyter Editor" src="https://docs.datalayer.io/assets/images/gallery-d29737240a1e3cc60b8f3b4676ccc07f.gif" />
