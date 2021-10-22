@@ -2,7 +2,7 @@
 
 # Jupyter React
 
-> ⚛️ [React.js](https://reactjs.org) components compatible with the [Jupyter](https://jupyter.org) ecosystem to create your own custom `Data Product`.
+> ⚛️ [React.js](https://reactjs.org) components compatible with the [Jupyter](https://jupyter.org) ecosystem to create your own custom Data Product.
 
 <div align="center" style="text-align: center">
   <img alt="Jupyter Editor" src="https://docs.datalayer.io/assets/images/jupyter-editor-2f39f51a4596173b8ffcf33d62ec5278.gif" />
